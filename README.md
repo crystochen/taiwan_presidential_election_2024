@@ -8,7 +8,7 @@ However, based on the data from the [2024 Taiwan presidential election](https://
 
 2. Mainstream media constantly proclaims that the polling results from Tianyu are'highly predictive' of the national election without providing an operational definition of the predictability or explaining how it was calculated. 
 
-To explore this phenomenon further, we used `pandas` and `SQLite` to create an election database. We also verified the closeness of regional and national polling results using "cosine similarity. Finally, we presented the results through a `Gradio` UI interface. The Visit [Hugging Face] (https://huggingface.co/spaces/crystochen/finding_octopus_alley) for the product page.
+To explore this phenomenon further, we used `pandas` and `SQLite` to create an election database. We also verified the closeness of regional and national polling results using "cosine similarity. Finally, we presented the results through a `Gradio` UI interface. The Visit [Hugging Face](https://huggingface.co/spaces/crystochen/finding_octopus_alley) for the product page.
 
 
 
@@ -23,3 +23,4 @@ To explore this phenomenon further, we used `pandas` and `SQLite` to create an e
 4. Activate the environment and run python `create_taiwan_presidential_election_2024_db.ipynb` to generate the taiwan_presidential_election_2024.db file in the `data/` directory.
 
 5. Activate the environment and run python app.py, then navigate to http://127.0.0.1:7860 to view the final results.
+
