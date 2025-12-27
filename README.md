@@ -1,14 +1,15 @@
 ## Introduction
 
-This project "Finding the Octopus Alley" explores the concept of bellwether. A bellweter refers to a specific county or region that historically tends to vote for the eventual winner of a national election. In Taiwan, if a candidate wins in a so-called "Octopus Alley", people generally assume they will likely win the entire country. 
+This project, "Finding the Octopus Alley," explores the concept of bellwether. A bellwether refers to a specific county or region that historically tends to vote for the eventual winner of a national election. In Taiwan, if a candidate wins in a so-called "Octopus Alley", people generally assume they will likely win the entire country. 
 
-However, based on the data from the [2024 Taiwan presidential election](https://db.cec.gov.tw/ElecTable/Election/ElecTickets?dataType=tickets&typeId=ELC&subjectId=P0&legisId=00&themeId=4d83db17c1707e3defae5dc4d4e9c800&dataLevel=N&prvCode=00&cityCode=000&areaCode=00&deptCode=000&liCode=0000), this project aims to show that the "Octopus Alley" is a myth. This can be debunked by two major factors:
+However, based on the data from the [2024 Taiwan presidential election](https://db.cec.gov.tw/ElecTable/Election/ElecTickets?dataType=tickets&typeId=ELC&subjectId=P0&legisId=00&themeId=4d83db17c1707e3defae5dc4d4e9c800&dataLevel=N&prvCode=00&cityCode=000&areaCode=00&deptCode=000&liCode=0000), this project aims to show that the "Octopus Alley" is a myth. Two significant factors can debunk this:
 
-1. The population profiles change over time, and react differently to various types of elections; therefore, considering a single neighborhood like Tianyu (天玉里) to be a bellwether for every elections is irrational. 
+1. The population profiles change over time, and react differently to various types of elections; therefore, considering a single neighborhood like Tianyu (天玉里) to be a bellwether for every election is irrational. 
 
-2. Mainstream media constantly proclaims that the polling results from Tianyu are'highly predictive' of national election without providing an operational definition of the predictability or explaining it was calculated. 
+2. Mainstream media constantly proclaims that the polling results from Tianyu are'highly predictive' of the national election without providing an operational definition of the predictability or explaining how it was calculated. 
 
-To explore this phenomenon further, we used `pandas` and `SQLite` to create an election database. We also verified closeness of regional and national polling results using "cosine similarity". Finally, we presented the retults through a `Gradio` UI interface. 
+To explore this phenomenon further, we used `pandas` and `SQLite` to create an election database. We also verified the closeness of regional and national polling results using "cosine similarity. Finally, we presented the results through a `Gradio` UI interface. The Visit [Hugging Face] (https://huggingface.co/spaces/crystochen/finding_octopus_alley) for the product page.
+
 
 
 ## How to Reproduce
